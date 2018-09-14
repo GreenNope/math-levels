@@ -1,9 +1,9 @@
-var nValue = 0;
+var nValue = 10;
 var addUpgrades = 0;
 
 
 function updateText() {
-  document.getElementById("nValue") = nValue;
+  document.getElementById("nValue").innerHtml11 = nValue;
 }
 
 function buyAddUpgrade(amt) {
