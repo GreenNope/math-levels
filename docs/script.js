@@ -3,7 +3,7 @@ var addUpgrades = 0;
 
 
 function updateText() {
-  document.getElementById("nValue").innerHtml = nValue;
+  document.getElementById("nValue").innerHtml = nValue.toString();
 }
 
 function buyAddUpgrade(amt) {
@@ -19,7 +19,7 @@ function buyAddUpgrade(amt) {
   }
 }
 
-function updateAll() {
+function updateAll {
   nValue = nValue + addUpgrades;
   updateText();
 }
