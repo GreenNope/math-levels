@@ -19,9 +19,9 @@ function buyAddUpgrade(amt) {
   }
 }
 
-while (true) {
+function updateAll() {
   nValue = nValue + addUpgrades;
   updateText();
-  wait(1);
-  
 }
+window.setInterval(updateAll(), 1000)
+
